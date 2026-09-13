@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "wads-dev-i18n"
-version = "0.0.1a0"
+version = "0.0.1a1"
 description = "Dependency-free typed i18n contracts, language negotiation and request-scoped resolvers for Python."
 readme = "README.md"
 license = "MIT"
