@@ -52,3 +52,5 @@ select = ["E", "F", "I", "W", "UP"]
 [tool.mypy]
 python_version = "3.12"
 strict = true
+[tool.pytest.ini_options]
+pythonpath = ["src"]
