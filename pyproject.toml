@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wads-dev-i18n"
+version = "0.0.1a0"
+description = "Dependency-free typed i18n contracts, language negotiation and request-scoped resolvers for Python."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    { name = "Wads.dev", email = "victor@wads.dev" }
+]
+keywords = [
+    "i18n",
+    "internationalization",
+    "typing",
+    "translations",
+    "python",
+    "negotiation"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Internationalization",
+    "Topic :: Software Development :: Localization",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/wads-dev/i18n-py"
+Repository = "https://github.com/wads-dev/i18n-py"
+Issues = "https://github.com/wads-dev/i18n-py/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wads_dev"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
