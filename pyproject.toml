@@ -35,9 +35,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/wads-dev/i18n-py"
-Repository = "https://github.com/wads-dev/i18n-py"
-Issues = "https://github.com/wads-dev/i18n-py/issues"
+Homepage = "https://github.com/wads-dev/i18n-python"
+Repository = "https://github.com/wads-dev/i18n-python"
+Issues = "https://github.com/wads-dev/i18n-python/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/wads_dev"]

@@ -13,7 +13,7 @@ Framework-independent Python foundations for strongly typed internationalization
 | Package | Environment | Responsibility |
 | --- | --- | --- |
 | [`@wads.dev/i18n-ts`](https://github.com/wads-dev/i18n-ts) | TypeScript / JS | Core typed contracts, language loading, project configuration and portable JSON bundles. |
-| [`@wads.dev/i18n-py`](https://github.com/wads-dev/i18n-py) | Python 3.11+ | Typed contracts, deferred references, `Accept-Language` negotiation and resolvers. |
+| [`@wads.dev/i18n-py`](https://github.com/wads-dev/i18n-python) | Python 3.11+ | Typed contracts, deferred references, `Accept-Language` negotiation and resolvers. |
 | [`@wads.dev/i18n-react`](https://github.com/wads-dev/i18n-react) | React | Provider, hooks and rich translation rendering built on `i18n-ts`. |
 | [`@wads.dev/i18n-html`](https://github.com/wads-dev/i18n-html) | DOM / Static | HTML bindings and static usage discovery built on `i18n-ts`. |
 | [`@wads.dev/i18n-editor`](https://github.com/wads-dev/i18n-editor) | Tooling | Local web editor for inspecting and editing translation bundles. |
@@ -43,7 +43,7 @@ uv add wads-dev-i18n
 
 ### Via Git Tag (Alpha)
 ```bash
-pip install git+https://github.com/wads-dev/i18n-py.git@v0.0.1-alpha
+pip install git+https://github.com/wads-dev/i18n-python.git@v0.0.1-alpha
 ```
 
 ---
